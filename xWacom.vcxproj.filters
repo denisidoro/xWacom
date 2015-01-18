@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWacomFeelMultiTouch\src\ofxWacomFeelMultiTouch.cpp">
+      <Filter>addons\ofxWacomFeelMultiTouch\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gesture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWacomFeelMultiTouch\libs\WacomMultiTouch.cpp">
+      <Filter>addons\ofxWacomFeelMultiTouch\libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWacomFeelMultiTouch">
+      <UniqueIdentifier>{759B15F2-CD18-A9EB-864C-0DDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWacomFeelMultiTouch\src">
+      <UniqueIdentifier>{DBF79635-671D-CB34-8028-CC37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{ae04159b-729c-4286-9f8f-e5058ecb626f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{ed9b2683-c56b-4302-ba5d-5a05586cc312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{cb4f47d5-3cc5-4f96-ae9d-0d644b048213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWacomFeelMultiTouch\libs">
+      <UniqueIdentifier>{b4ffa9c6-ca9b-4f6d-b81c-036764267f95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWacomFeelMultiTouch\src\ofxWacomFeelMultiTouch.h">
+      <Filter>addons\ofxWacomFeelMultiTouch\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gesture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWacomFeelMultiTouch\libs\WacomMultiTouch.h">
+      <Filter>addons\ofxWacomFeelMultiTouch\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWacomFeelMultiTouch\libs\WacomMultiTouchTypes.h">
+      <Filter>addons\ofxWacomFeelMultiTouch\libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
